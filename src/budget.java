@@ -22,7 +22,7 @@ public class budget {
         */
 
         Arrays.sort(d); // 아예 바껴버림
-
+/*
         int maximum = 0;
         int answer = 0;
         for (int i = 0; i < d.length; i++){
@@ -32,6 +32,8 @@ public class budget {
             }
         }
 
+        System.out.println(answer);
+*/
         int num = 0;
         for (int i = 0; i < d.length; i++) {
             budget -= d[i];
@@ -41,6 +43,6 @@ public class budget {
         }
         System.out.println(num);
 
-        System.out.println(answer);
+
     }
 }
