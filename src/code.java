@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class test {
+public class code {
     public static void main(String[] args) {
         //System.out.println("로또번호 출력하기:"+(int)(Math.random()*10));
         //randomLotto();
